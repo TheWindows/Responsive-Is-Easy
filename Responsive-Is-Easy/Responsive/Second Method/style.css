@@ -1,0 +1,52 @@
+/* In This Method We Use The Classes Name And Give Them Width */
+.header{
+    height: 100px;
+    background-color: black;
+    border-radius: 10px;
+}
+.text{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 10px;
+    font:menu;
+    font-size: 30px;
+}
+.one , .two , .three{
+    float:left; /* if we have a 3 div's next to each other we need give all of them float left */
+    background-color: rgb(59, 59, 59);
+    height: 400px;
+    margin: 1%; /* we use margin for distance between div */
+}
+.one-text{
+    color:rgb(255, 255, 255);
+    text-align: center;
+    font-weight: bold;
+}
+.chillguy{
+    mix-blend-mode: multiply;
+}
+.footer{
+    background-color: black;
+    margin-top: 1%;
+    height: 75px;
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+@media only screen and (min-width:400px){ /* This min-width is mobile devices */
+    .header{width:100%;}
+    .one , .two , .three{width:30%;}
+    .chillguy{width:100%;}
+    .footer{width:100%;}
+}
+@media only screen and (min-width:800px){ /* This min-width is tablet devices */
+    .header{width:100%;}
+    .one , .two , .three{width:30%;}
+    .chillguy{width:100%;}
+    .footer{width:100%;}
+}
+@media only screen and (min-width:1024px){ /* This min-width is pc devices */
+    .header{width:100%;}
+    .one , .two , .three{width:30%;}
+    .chillguy{width:100%;}
+    .footer{width:100%;}
+}
